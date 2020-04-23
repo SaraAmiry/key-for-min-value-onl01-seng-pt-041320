@@ -9,7 +9,7 @@ user = {
   :location => "idaho",
   :email => "steve@email.com",
   :user_id => 12345
-},{
+},{[
   :name => "steve",
   :location => "idaho",
   :email => "steve@email.com"
@@ -21,4 +21,4 @@ user = {
   :user_id => 6789
   :aliases => ["bobby", "robert"]
 }]
-puts users[2][:aliases].each {|alias|puts
+puts users[2][:aliases].each {|alias|puts "AKA: #{alias}"}
