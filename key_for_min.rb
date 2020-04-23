@@ -9,7 +9,7 @@ user = {
   :location => "idaho",
   :email => "steve@email.com",
   :user_id => 12345
-},{[
+},[{
   :name => "steve",
   :location => "idaho",
   :email => "steve@email.com"
