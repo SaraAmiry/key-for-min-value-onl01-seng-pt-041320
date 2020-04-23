@@ -21,4 +21,5 @@ user = {
   :user_id => 6789
   :aliases => ["bobby", "robert"]
 }]
-puts users[2][:aliases].each {|alias|puts "AKA: #{alias}"}
+puts users[2][:aliases].each {|name|
+puts "AKA: #{name}"}
