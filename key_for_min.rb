@@ -23,3 +23,4 @@ user = {
 }]
 puts users[2][:aliases].each {|name|
 puts "AKA: #{name}"}
+end
