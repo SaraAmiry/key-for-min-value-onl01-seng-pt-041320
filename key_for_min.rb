@@ -8,17 +8,17 @@ user = {
   :name => "steve",
   :location => "idaho",
   :email => "steve@email.com",
-  :user_id => 12345
+  :user_id => 1234
 },[{
   :name => "steve",
   :location => "idaho",
   :email => "steve@email.com"
-  :user_id => 12345
+  :user_id => 1234
 },{
   :name => "bob",
   :location => "idaho",
   :email => "bob@email.com"
-  :user_id => 6789
+  :user_id => 567
   :aliases => ["bobby", "robert"]
 }]
 puts users[2][:aliases].each {|name|
