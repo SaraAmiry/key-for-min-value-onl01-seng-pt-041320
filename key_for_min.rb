@@ -4,3 +4,21 @@
 def key_for_min_value(name_hash)
 
 end
+user = {
+  :name => "steve",
+  :location => "idaho",
+  :email => "steve@email.com",
+  :user_id => 12345
+},{
+  :name => "steve",
+  :location => "idaho",
+  :email => "steve@email.com"
+  :user_id => 12345
+},{
+  :name => "bob",
+  :location => "idaho",
+  :email => "bob@email.com"
+  :user_id => 6789
+  :aliases => ["bobby", "robert"]
+}]
+puts users[2][:aliases].each {|alias|puts
